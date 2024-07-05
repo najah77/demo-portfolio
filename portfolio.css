@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header{
+    display: flex;
+    font-size: 30px;
+    margin-left: 1300px;
+   
+}
+header a{
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    transition-duration: 0.4s;
+}
+
+header a:hover{
+    color: darkgoldenrod;
+    scale: 1.20;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    margin-left: 1350px;
+    
+}
+
+.recent h1{
+    
+    margin-left: 860px;
+    margin-top: 150px;
+    font-size: 150px;
+    font-family: "Comforter", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.pic{
+    display: flex;
+}
+.portrait{
+    width: 500px;
+    height: 800px;
+    margin: 160px;
+    margin-left: 130px;
+    transition-duration: 0.6s;
+    border-radius: 50px;
+    border: 3px dotted red;
+}
+
+.portrait:hover{
+    scale: 1.2;
+}
+
+.over{
+    position: absolute;
+    left: 290px;
+    top: 1390px;
+    background-color: transparent;
+    font-size: 70px;
+    font-family: "Comforter", cursive;
+    font-weight: 500;
+    font-style: normal;
+    
+      
+
+}
+
+.over1{
+    position: absolute;
+    left: 1100px;
+    top: 1390px;
+    background-color: transparent;
+    font-size: 70px;
+    font-family: "Comforter", cursive;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.over2{
+    position: absolute;
+    left: 1890px;
+    top: 1390px;
+    background-color: transparent;
+    font-size: 70px;
+    font-family: "Comforter", cursive;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.naseef{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+.naseef span{
+    color: darkgoldenrod;
+}
+
+@media all and (max-width:600px){
+    body{
+        margin: 0;
+        color: black;
+        background-color: red;
+    }
+    header{
+        width: 600px;
+        height: 600px;
+        display: flex;
+        font-size: 20px;
+        margin-left: 1300px;
+       
+    }
+    header a{
+        width: 600px;
+        height: 600px;
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition-duration: 0.4s;
+        
+    }
+    .pic{
+        display: flex;
+        width: 600px;
+        height: 400px;
+    }
+
+    .portrait{
+        width: 600px;
+        height: 700px;
+    }
+
+
+}

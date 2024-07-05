@@ -1,0 +1,81 @@
+*{
+    margin: 0;  
+    padding: 0;
+    scrollbar-width: none;  
+}
+.full{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    transition-duration: 0.4s;
+    
+    
+}
+
+header{
+    display: flex;
+    font-size: 30px;
+    margin-left: 1300px;
+   
+}
+header a{
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    transition-duration: 0.4s;
+}
+
+header a:hover{
+    color: darkgoldenrod;
+    scale: 1.20;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    margin-left: 1350px;
+    
+}
+
+.photographer h1{
+    position: absolute;
+    top: 408px;
+    left: 140px;
+    color: white;
+    font-size: 70px;
+    transition-duration: 0.4s;
+}
+
+.photographer h3{
+    position: absolute;
+    top: 508px;
+    left: 215px;
+    color: white;
+    font-size: 50px;
+    cursor: default;
+    transition-duration: 0.4s;
+
+}
+
+.photographer h1:hover{
+    scale: 1.25;
+    color: goldenrod;
+    cursor: default;
+}
+
+.photographer h3:hover{
+    color: goldenrod;
+    scale: 1.10;
+}
+

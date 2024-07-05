@@ -1,0 +1,85 @@
+*{
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;}
+
+.fb{
+    margin-left: -30px;
+    margin-top: 47px;
+}
+header{
+    display: flex;
+    font-size: 30px;
+    margin-left: 1300px;
+   
+}
+header a{
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    transition-duration: 0.4s;
+}
+
+header a:hover{
+    color: darkgoldenrod;
+    scale: 1.20;
+}
+
+.insta{
+    width: 30px;
+    height: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    margin-left: 1350px;
+    
+}
+
+.video{
+    
+    height: 848px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 250px;
+    border: 3px solid red;
+    
+}
+.video3{
+    
+    height: 848px;
+    position: absolute;
+    margin-left: 1650px;
+    margin-top: 250px;
+    border: 3px solid red;
+    
+}
+.video1{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 690px;
+   
+    
+}
+
+.video2{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 250px;
+    
+}
+.video4{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 1300px;
+    
+}

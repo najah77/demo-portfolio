@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Diplomata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="naseef"><span>N</span>ASEEF <br><span>G</span>AFOOR</h1>
+    <header class="text">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">Videos</a>
+        <a href="">Contact</a>
+        <a target="_blank" href="https://www.instagram.com/naseefgafoor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img class="insta" src="./Images/Instagram white.png" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/naseefgafoor"><img class="insta" src="./Images/facebook white.png" alt=""></a>
+    </header>
+
+    <section class="recent">
+        <h1>Recent Works</h1>
+    </section>
+
+    <section class="pic">
+        <a href=""><img class="portrait" src="./Images/naseefkka portrait 1.jpg" alt=""></a>
+        <h2 class="over">Portraits</h2>
+        <a href=""><img class="portrait" src="./Images/naseefkka portrait 2.jpg" alt=""></a>
+        <h2 class="over1">Neon</h2>
+        <a href=""><img class="portrait" src="./Images/Naseefkka portrait 4.jpg" alt=""></a>
+        <h2 class="over2">Fashion</h2>
+    </section>
+
+
+</body>
+</html>
