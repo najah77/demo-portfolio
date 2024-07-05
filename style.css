@@ -2,6 +2,7 @@
     margin: 0;  
     padding: 0;
     scrollbar-width: none;  
+    overflow: hidden;
 }
 .full{
     height: 100%;
